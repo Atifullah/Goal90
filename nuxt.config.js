@@ -1,6 +1,7 @@
 export default {
   // Disable server-side rendering: https://go.nuxtjs.dev/ssr-mode
   ssr: false,
+  mode: 'spa',
 
   // Target: https://go.nuxtjs.dev/config-target
   target: 'static',
@@ -24,12 +25,15 @@ export default {
 
   // Global CSS: https://go.nuxtjs.dev/config-css
   css: [
-    'ant-design-vue/dist/antd.css'
+    'ant-design-vue/dist/antd.css',
   ],
 
   // Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins
   plugins: [
-    '@/plugins/antd-ui'
+    '@/plugins/antd-ui',
+    '@/plugins/globalLibraries',
+    '@/plugins/baseComponents',
+    '@/plugins/shortHandFunctions',
   ],
 
   // Auto import components: https://go.nuxtjs.dev/config-components
