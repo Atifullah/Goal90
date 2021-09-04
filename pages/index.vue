@@ -1,6 +1,6 @@
 <template>
   <div class="content">
-    <h1>sdfjsdkfjdsk</h1>
+    <h1>Dashboard</h1>
   </div>
 </template>
 
