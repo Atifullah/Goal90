@@ -4,9 +4,7 @@
   </div>
 </template>
 <script>
-export default {
-
-}
+export default {}
 </script>
 <style lang="sass">
 @import '~/assets/scss/global/layout.scss'
